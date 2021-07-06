@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+}
+.logo img{
+    width: 70px;
+}
+.nav-item li{
+    display: inline-block;
+    padding: 5px;
+}
+/* ================ section start here ===========  */
+.sec-1-flexiable{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.half-part{
+    width: 40%;
+    padding: 5%;
+}
+.half-part h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+.oranged{
+    color: orangered;
+}
+.half-part p{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.half-part a{
+    padding: 10px 30px;
+    border-radius: 100px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right,orange, orangered);
+}
+.half-part img{
+    width: 100%;
+}
+.bg-image{
+    background-image: url("images/shapes/7.png");
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.bg-image .half-part{
+    text-align: right;
+}
+/* ======== recipies start here =========  */
+.recipies{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.recipies h1{
+    font-size: 48px;
+}
+.recipies p{
+    font-size: 18px;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+}
+.card-sub{
+    width: 20%;
+    box-shadow: 5px 5px 50px gray;
+    padding: 10px;
+    border-radius: 15px;
+}
+.card-sub img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+/* =========== suscribe start here ============  */
+
+.padding-subscribe{
+    padding: 40px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.subscribe{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 2px 2px 20px gray;
+    border-radius: 10px;
+}
+.subscribe-sub h1{
+    font-size: 40px;
+}
+/* ========== footer ========  */
+
+footer{
+    text-align: center;
+    background: #656566;
+    padding: 10px;
+}
+footer h1{
+    text-transform: uppercase;
+}
